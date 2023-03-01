@@ -1,0 +1,37 @@
+/* COLOR */
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.color1 {
+    background-color: rgba(5, 30, 52, 1);
+}
+
+.color2 {
+    background-color: rgba(27, 114, 232, 1);
+}
+
+.color3 {
+    background-color: rgba(236, 236, 236, 1);
+}
+
+/* HEADER */
+
+.ms_header {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+/* MAIN  */
+
+.ms_main {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
