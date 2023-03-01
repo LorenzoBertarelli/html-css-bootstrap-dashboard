@@ -8,6 +8,7 @@
 
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,48 +20,75 @@
     <!-- HEADER -->
     <header class="ms_header">
         <div class="container">
-            <div class="row fixed-top">
+            <div class="row d-flex fixed-top">
+                <div class="container d-flex">
+                    <div class="logo-space">
+                        <img class="logo-mobile" src="img/mobile-logo.png" alt="">
+                        <img class="logo-desktop" src="img/logo.svg" alt="">
+                    </div>                    
+                    <form class="serch">
+                        <div class="input-group">
+                          <button class="input-group-text serch-logo bg-dark-subtle" id="serch"><i class="fa-solid fa-magnifying-glass"></i></button>
+                          <input type="text" class="form-control serch-text bg-dark-subtle" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="serch">
+                        </div>
+                    </form>
+                    <div class="bell-space">
+                        <i class="fa-solid fa-list simbol-header-m"></i>
+                        <i class="fa-solid fa-circle-question simbol-header-m"></i>
+                        <i class="fa-solid fa-ellipsis-vertical simbol-header-m"></i>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
     <!-- HEADER END -->
 
     <!-- MAIN -->
-    <main class="ms_main ">
-        <div class="container gx-0 d-flex">
+    <main class="ms_main">
+        <div class="d-flex">
             
             <!-- SIDEBAR -->
-            <section class="color1" style="height: calc(100vh - 100px); width: 150px;"></section>            
+            <section class="color1 sidebar text-center">
+                <div class="d-flex element-sidebar logo-sidebar"><a href=""><i class="fa-solid fa-house white"></i><p class="test-sidebar white">Home &nbsp</p></a></div>
+                <div class="d-flex element-sidebar logo-sidebar"><a href=""><i class="fa-solid fa-chart-simple  white"></i><p class="test-sidebar white">Stats &nbsp&nbsp</p></a></div>
+                <div class="d-flex element-sidebar logo-sidebar"><a href=""><i class="fa-solid fa-signal  white"></i><p class="test-sidebar white">Signalis</p></a></div>
+                <div class="d-flex element-sidebar logo-gear"><a href=""><i class="fa-solid fa-gear  white"></i><p class="test-sidebar white">Admin</p></a></div>
+            </section>            
             <!-- END SIDEBAR -->
 
             <!-- CONTENT -->
-            <section class="color3" style="height: calc(100vh - 100px); width: calc(100% - 150px);">
+            <section class="content">
             <!-- Jumbotron --> 
-                <div class="container color2" style="height: 100; width: 100%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quidem doloremque tempore laudantium labore? Enim rem magnam iste voluptatum dolore minus asperiores quis! Ut, itaque repellat dolor atque hic perferendis!</div>               
+                <div class="color2">
+                    <div class="container white">
+                       <div class="col-12">
+                        Nuovo Studente
+                       </div>
+                    </div>                    
+                </div>               
             <!-- End Jumbotron -->
-            <div class="container height: 100%">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum nemo eius expedita voluptas cum culpa, alias sed error repellat autem quibusdam laudantium non, magni, voluptatum molestiae voluptatem? Nihil, voluptatem?
-            Molestiae repellat, porro distinctio quis ut necessitatibus! Iste quam animi placeat, dignissimos enim eos nostrum ducimus vel repudiandae laborum distinctio veniam odit eum voluptatibus nam ex amet. Quaerat, sapiente ut.
-            Est porro inventore ex perferendis iusto numquam repudiandae ipsa, nihil ipsam eos unde earum quis aut eaque ea cumque assumenda. Officia, praesentium impedit mollitia dolores tempore sit magnam provident recusandae!
-            Architecto culpa itaque impedit. Expedita perspiciatis non saepe accusantium veniam nulla quis consequatur omnis porro veritatis similique velit, nobis autem exercitationem numquam doloremque. Voluptate non laborum iusto nobis similique laudantium?
-            Animi explicabo deserunt magni ex! Nemo recusandae, pariatur, eaque quidem provident soluta dolore autem, ratione accusamus excepturi beatae harum? Aliquid voluptas optio ab asperiores similique consequuntur autem ipsum, dolorum perferendis?
-            Explicabo ullam quis rerum eius provident perspiciatis ea ducimus natus totam reprehenderit porro omnis saepe nihil dicta molestiae placeat, qui doloremque eaque, nulla atque. Ducimus odit recusandae unde eum tempore!
-            Nulla possimus impedit aut maxime nobis perferendis suscipit ratione aliquam, recusandae mollitia eum minima natus ut modi, minus labore voluptatem totam quo rem numquam praesentium aperiam obcaecati omnis. Doloremque, itaque!
-            Atque magnam assumenda autem, hic soluta enim explicabo distinctio? Quis, tempore nulla sequi vitae quasi reiciendis aperiam asperiores soluta ipsa illum, minima maiores doloribus deleniti nobis. Eum velit deserunt magnam!
-            Dignissimos quis qui officia commodi laborum minima necessitatibus ex porro, ab nostrum doloribus ut. Odit officia maiores officiis repellendus illo, at, mollitia temporibus vel unde, eum rerum sit quasi cumque!
-            Quasi esse repellat beatae deserunt recusandae officia explicabo veniam incidunt, praesentium rerum architecto a necessitatibus quaerat quos animi nihil distinctio ab molestiae enim mollitia obcaecati quis sed cum nam! Architecto?
-            Omnis aspernatur voluptatum repudiandae tempora sunt mollitia nihil fugit odio exercitationem nam dignissimos excepturi inventore commodi corrupti iure perferendis, hic enim dicta molestias quae? Aliquam magni ad quia unde non!
-            Vel consequatur repellat ullam nesciunt, sint ex dolores veniam, consectetur accusamus eligendi quam pariatur, autem harum maiores iusto? Possimus et praesentium corporis at, atque veniam? Delectus aliquid impedit soluta explicabo.
-            Fugiat accusantium error vel, atque adipisci perferendis, consequuntur corporis officia iusto minima ratione voluptas laborum earum maiores esse tempora, odio nulla commodi. Corrupti dolorem placeat voluptatibus rerum molestias quas delectus?
-            Quod odio, unde obcaecati animi debitis aperiam sapiente. Rerum, nulla. Nobis quod aspernatur aut iusto laborum deleniti in, suscipit distinctio voluptatum fuga saepe voluptatem? Quas neque voluptatum possimus ullam quo.
-            Dolore, officia optio aliquid sed repudiandae, eum provident earum aperiam error quibusdam fuga nam molestiae. Amet numquam dolorem quibusdam, ducimus, unde blanditiis ex magnam nisi debitis, excepturi reiciendis ullam animi!
-            Facere sunt debitis sit. Quasi quia libero ut, veniam fugiat quisquam, qui cupiditate expedita perspiciatis mollitia hic distinctio officiis, nihil ullam. Nobis nulla architecto magnam, blanditiis voluptatibus hic assumenda labore?
-            Libero impedit ea modi, eos amet, facere porro sunt iusto commodi quasi corporis deleniti distinctio totam molestias a voluptatem. Dolorem non excepturi delectus recusandae illum voluptatem, rerum fugiat culpa eius?
-            Quos eveniet aliquam esse natus, porro neque ducimus illo libero quis ut, asperiores quia iusto! Facilis excepturi nam magni architecto. In velit facere molestiae. Fuga quidem magnam sequi. Aut, ducimus!
-            Temporibus, facilis. Odit libero, dolorem optio eos delectus ipsa expedita maiores in est officiis sed neque explicabo aliquid. Facere enim totam quaerat deserunt possimus facilis repellendus aliquid officia pariatur eligendi?
-                 
-            </div>
-           Magni repudiandae eligendi et eveniet consequatur incidunt ad, nemo quo minima ullam. Quae provident dolorem explicabo obcaecati perspiciatis optio, sequi qui ab cum vitae aut totam, labore vero dolore eos!
+                <div class="container">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum nemo eius expedita voluptas cum culpa, alias sed error repellat autem quibusdam laudantium non, magni, voluptatum molestiae voluptatem? Nihil, voluptatem?
+                Molestiae repellat, porro distinctio quis ut necessitatibus! Iste quam animi placeat, dignissimos enim eos nostrum ducimus vel repudiandae laborum distinctio veniam odit eum voluptatibus nam ex amet. Quaerat, sapiente ut.
+                Est porro inventore ex perferendis iusto numquam repudiandae ipsa, nihil ipsam eos unde earum quis aut eaque ea cumque assumenda. Officia, praesentium impedit mollitia dolores tempore sit magnam provident recusandae!
+                Architecto culpa itaque impedit. Expedita perspiciatis non saepe accusantium veniam nulla quis consequatur omnis porro veritatis similique velit, nobis autem exercitationem numquam doloremque. Voluptate non laborum iusto nobis similique laudantium?
+                Animi explicabo deserunt magni ex! Nemo recusandae, pariatur, eaque quidem provident soluta dolore autem, ratione accusamus excepturi beatae harum? Aliquid voluptas optio ab asperiores similique consequuntur autem ipsum, dolorum perferendis?
+                Explicabo ullam quis rerum eius provident perspiciatis ea ducimus natus totam reprehenderit porro omnis saepe nihil dicta molestiae placeat, qui doloremque eaque, nulla atque. Ducimus odit recusandae unde eum tempore!
+                Nulla possimus impedit aut maxime nobis perferendis suscipit ratione aliquam, recusandae mollitia eum minima natus ut modi, minus labore voluptatem totam quo rem numquam praesentium aperiam obcaecati omnis. Doloremque, itaque!
+                Atque magnam assumenda autem, hic soluta enim explicabo distinctio? Quis, tempore nulla sequi vitae quasi reiciendis aperiam asperiores soluta ipsa illum, minima maiores doloribus deleniti nobis. Eum velit deserunt magnam!
+                Dignissimos quis qui officia commodi laborum minima necessitatibus ex porro, ab nostrum doloribus ut. Odit officia maiores officiis repellendus illo, at, mollitia temporibus vel unde, eum rerum sit quasi cumque!
+                Quasi esse repellat beatae deserunt recusandae officia explicabo veniam incidunt, praesentium rerum architecto a necessitatibus quaerat quos animi nihil distinctio ab molestiae enim mollitia obcaecati quis sed cum nam! Architecto?
+                Omnis aspernatur voluptatum repudiandae tempora sunt mollitia nihil fugit odio exercitationem nam dignissimos excepturi inventore commodi corrupti iure perferendis, hic enim dicta molestias quae? Aliquam magni ad quia unde non!
+                Vel consequatur repellat ullam nesciunt, sint ex dolores veniam, consectetur accusamus eligendi quam pariatur, autem harum maiores iusto? Possimus et praesentium corporis at, atque veniam? Delectus aliquid impedit soluta explicabo.
+                Fugiat accusantium error vel, atque adipisci perferendis, consequuntur corporis officia iusto minima ratione voluptas laborum earum maiores esse tempora, odio nulla commodi. Corrupti dolorem placeat voluptatibus rerum molestias quas delectus?
+                Quod odio, unde obcaecati animi debitis aperiam sapiente. Rerum, nulla. Nobis quod aspernatur aut iusto laborum deleniti in, suscipit distinctio voluptatum fuga saepe voluptatem? Quas neque voluptatum possimus ullam quo.
+                Dolore, officia optio aliquid sed repudiandae, eum provident earum aperiam error quibusdam fuga nam molestiae. Amet numquam dolorem quibusdam, ducimus, unde blanditiis ex magnam nisi debitis, excepturi reiciendis ullam animi!
+                Facere sunt debitis sit. Quasi quia libero ut, veniam fugiat quisquam, qui cupiditate expedita perspiciatis mollitia hic distinctio officiis, nihil ullam. Nobis nulla architecto magnam, blanditiis voluptatibus hic assumenda labore?
+                Libero impedit ea modi, eos amet, facere porro sunt iusto commodi quasi corporis deleniti distinctio totam molestias a voluptatem. Dolorem non excepturi delectus recusandae illum voluptatem, rerum fugiat culpa eius?
+                Quos eveniet aliquam esse natus, porro neque ducimus illo libero quis ut, asperiores quia iusto! Facilis excepturi nam magni architecto. In velit facere molestiae. Fuga quidem magnam sequi. Aut, ducimus!
+                Temporibus, facilis. Odit libero, dolorem optio eos delectus ipsa expedita maiores in est officiis sed neque explicabo aliquid. Facere enim totam quaerat deserunt possimus facilis repellendus aliquid officia pariatur eligendi?                    
+                </div>
             </section>
             <!-- END CONTENT -->
         </div>

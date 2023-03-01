@@ -1,0 +1,37 @@
+/* MEDIA QUERY */
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    .logo-space .logo-mobile {
+        display: none;
+    }
+
+    .logo-space .logo-desktop {
+        display: inline-block;
+    }
+
+    .sidebar {
+        width: 200px;
+    }
+
+    .test-sidebar {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo-space .logo-desktop {
+        display: none;
+    }
+
+    .bell-space .simbol-header-m {
+        display: none;
+    }
+
+    .test-sidebar {
+        display: none;
+    }
+}
