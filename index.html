@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Dashboard</title>
 
+    <!-- FONT -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -51,10 +57,10 @@
             <!-- SIDEBAR -->
             <section class="color1 sidebar text-center ">
                 <nav class="nav flex-column">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house font-sidebar white"></i><p class="test-sidebar white">Home &nbsp</p></a>
-                    <a class="nav-link" href="#"><i class="fa-solid fa-chart-simple font-sidebar white"></i><p class="test-sidebar white">Stats &nbsp&nbsp</p></a>
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house font-sidebar white"></i><p class="test-sidebar white">Home &nbsp;</p></a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-chart-simple font-sidebar white"></i><p class="test-sidebar white">Stats &nbsp;&nbsp;</p></a>
                     <a class="nav-link" href="#"><i class="fa-solid fa-signal font-sidebar white"></i><p class="test-sidebar white">Signalis</p></a>
-                    <a class="nav-link disabled logo-gear"><i class="fa-solid fa-gear font-sidebar white"></i><p class="test-sidebar white">Admin</p></a>
+                    <a class="nav-link disabled logo-gear flex-end" href="#"><i class="fa-solid fa-gear font-sidebar white"></i><p class="test-sidebar white">Admin</p></a>
                   </nav>
             </section>            
             <!-- END SIDEBAR -->
@@ -65,7 +71,7 @@
             <div class="container-fluid ps-0 pe-0">
                 <div class="main-head">
                      <div class="container-fluid pb-3 d-md-flex color2 white">
-                        <div class="col  d-md-flex order-3 justify-content-end align-items-center">
+                        <div class="col d-md-flex order-3 justify-content-end align-items-center">
                             <span>Nuovo Studente</span>
                             <a class=" fs-1 ms-2 my-white" href=""><i class="fa-regular fa-square-plus white"></i></a>
                         </div>
@@ -99,6 +105,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Nome</th>
+                                            <th scope="col" class="table-responsive-sm d-none d-lg-table-cell">Data Inizio</th>
                                             <th scope="col">Stato</th>
                                             <th scope="col">Azioni</th>
                                         </tr>
@@ -106,41 +113,49 @@
                                     <tbody>
                                         <tr>
                                             <td><img class="img-logo-code" src="img/class-avatar.jpg" alt=""> Classe 75</td>
+                                            <td class="table-responsive-sm d-none d-lg-table-cell">15 Feb 2021</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
                                             <td><a class="text-decoration-none" href=""><i class="fa-solid fa-pen action-logo"></i> <i class="fa-solid fa-trash action-logo"></i></a></td>
                                         </tr>
                                         <tr>
                                             <td><img class="img-logo-code" src="img/class-avatar.jpg" alt=""> Classe 76</td>
+                                            <td class="table-responsive-sm d-none d-lg-table-cell">15 Feb 2021</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
                                             <td><a class="text-decoration-none" href=""><i class="fa-solid fa-pen action-logo"></i> <i class="fa-solid fa-trash action-logo"></i></a></td>
                                         </tr>
                                         <tr>
                                             <td><img class="img-logo-code" src="img/class-avatar.jpg" alt=""> Classe 77</td>
+                                            <td class="table-responsive-sm d-none d-lg-table-cell">15 Feb 2021</td>
                                             <td><span class="badge text-bg-warning">Process</span></td>
                                             <td><a class="text-decoration-none" href=""><i class="fa-solid fa-pen action-logo"></i> <i class="fa-solid fa-trash action-logo"></i></a></td>
                                         </tr>
                                         <tr>
                                             <td><img class="img-logo-code" src="img/class-avatar.jpg" alt=""> Classe 78</td>
+                                            <td class="table-responsive-sm d-none d-lg-table-cell">15 Feb 2021</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
                                             <td><a class="text-decoration-none" href=""><i class="fa-solid fa-pen action-logo"></i> <i class="fa-solid fa-trash action-logo"></i></a></td>
                                         </tr>
                                         <tr>
                                             <td><img class="img-logo-code" src="img/class-avatar.jpg" alt=""> Classe 79</td>
+                                            <td class="table-responsive-sm d-none d-lg-table-cell">15 Feb 2021</td>
                                             <td><span class="badge text-bg-danger">Failed</span></td>
                                             <td><a class="text-decoration-none" href=""><i class="fa-solid fa-pen action-logo"></i> <i class="fa-solid fa-trash action-logo"></i></a></td>
                                         </tr>
                                         <tr>
                                             <td><img class="img-logo-code" src="img/class-avatar.jpg" alt=""> Classe 80</td>
+                                            <td class="table-responsive-sm d-none d-lg-table-cell">15 Feb 2021</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
                                             <td><a class="text-decoration-none" href=""><i class="fa-solid fa-pen action-logo"></i> <i class="fa-solid fa-trash action-logo"></i></a></td>
                                         </tr>                                      
                                         <tr>
                                             <td><img class="img-logo-code" src="img/class-avatar.jpg" alt=""> Classe 81</td>
+                                            <td class="table-responsive-sm d-none d-lg-table-cell">15 Feb 2021</td>
                                             <td><span class="badge text-bg-danger">Failed</span></td>
                                             <td><a class="text-decoration-none" href=""><i class="fa-solid fa-pen action-logo"></i> <i class="fa-solid fa-trash action-logo"></i></a></td>
                                         </tr>
                                         <tr>
                                             <td><img class="img-logo-code" src="img/class-avatar.jpg" alt=""> Classe 82</td>
+                                            <td class="table-responsive-sm d-none d-lg-table-cell">15 Feb 2021</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
                                             <td><a class="text-decoration-none" href=""><i class="fa-solid fa-pen action-logo"></i> <i class="fa-solid fa-trash action-logo"></i></a></td>
                                         </tr>
